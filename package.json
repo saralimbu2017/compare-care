@@ -1,0 +1,24 @@
+{
+  "name": "compare-care",
+  "version": "1.0.0",
+  "description": "A web platform  to compare the aged cares.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saralimbu2017/compare-care.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saralimbu2017/compare-care/issues"
+  },
+  "homepage": "https://github.com/saralimbu2017/compare-care#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "underscore": "^1.9.1"
+  }
+}
