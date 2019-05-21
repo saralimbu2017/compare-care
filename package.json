@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/saralimbu2017/compare-care#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
     "express": "^4.17.0",
     "underscore": "^1.9.1"
   }
