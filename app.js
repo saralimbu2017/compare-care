@@ -9,13 +9,24 @@ app.set('view engine', 'ejs')
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-app.post('/', function (req, res) {
+app.post('/signup', function (req, res) {
   res.render('signup');
   console.log(req.body.userName);
 })
-app.get("/",(req,res) => {
+
+app.get("/signup",(req,res) => {
   //res.send("hello");
   res.render('signup');
+})
+
+app.get("/login",(req,res) => {
+  //res.send("hello");
+  res.render('login');
+})
+
+app.post("/login",(req,res) => {
+  //res.send("hello");
+  res.render('login');
 })
 
 app.listen(port,() => {
