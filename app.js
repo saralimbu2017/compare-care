@@ -8,13 +8,14 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs')
 app.use(bodyParser.urlencoded({ extended: true }));
 
+
 app.post('/', function (req, res) {
-  res.render('index');
+  res.render('signup');
   console.log(req.body.userName);
 })
 app.get("/",(req,res) => {
   //res.send("hello");
-  res.render('index');
+  res.render('signup');
 })
 
 app.listen(port,() => {
