@@ -4,7 +4,7 @@
   "description": "A web platform  to compare the aged cares.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
     "ejs": "^2.6.1",
     "express": "^4.17.0",
     "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
   }
 }
